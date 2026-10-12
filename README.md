@@ -13,17 +13,6 @@ Lo que lo diferencia de un descargador simple:
 > Proyecto personal sin relacion con hitomi.la. Usalo bajo tu responsabilidad, respeta los terminos del sitio y las leyes de tu pais. El sitio contiene material para adultos.
 
 ---
-
-## Capturas
-
-| Panel minimizado (estado inicial) | Panel tras examinar un listado | Panel descargando |
-|---|---|---|
-| ![Panel minimizado](docs/panel-minimizado.png) | ![Panel examinar](docs/panel-examinar.png) | ![Panel descargando](docs/panel-descargando.png) |
-
-![Tabla de descargas](docs/tabla.png)
-
----
-
 ## Requisitos
 
 - Firefox, Chrome, Edge o Brave
