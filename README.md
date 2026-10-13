@@ -351,6 +351,49 @@ Si el sitio responde con errores por demasiadas peticiones, reduce `IMAGE_CONCUR
 
 ---
 
+## Conversor HTML — si el formato HTML no te convence
+
+Si prefieres leer tus cómics en una aplicación dedicada (como *CDisplayEx*, *YACReader*, etc.) en lugar del visor web por defecto, este repositorio incluye el **Conversor HTML**, una herramienta diseñada para transformar de forma masiva tus archivos `.html` descargados al formato que prefieras (**CBZ, CBR o carpetas con imágenes ordenadas**).
+
+Puedes utilizar la herramienta de la forma que te resulte más cómoda:
+
+### Opción A: Archivo Ejecutable (`.exe`) — *Recomendado para Windows*
+* **Sin complicaciones:** No requiere que tengas Python instalado ni dependencias previas.
+* **Uso directo:** Descarga el archivo `Conversor_HTML.exe` desde la sección de [Releases](../../releases) (junto con los archivos de soporte/iconos si aplica) y ejecútalo al instante.
+
+### Opción B: Código Fuente en Python (`.py`) — *Para desarrolladores o personalización*
+Si prefieres ejecutar, modificar o auditar el código fuente directamente, puedes utilizar el archivo `Conversor_HTML.exe`. 
+
+Para que funcione correctamente, solo necesitas tener Python instalado y la siguiente dependencia obligatoria:
+
+1. Instala la librería de análisis HTML ejecutando este comando en tu terminal:
+   ```bash
+   pip install beautifulsoup4
+
+### Formatos de salida
+
+El usuario elige el formato que prefiera al momento de convertir:
+
+| Formato | Extension | Para que sirve |
+|---|---|---|
+| CBZ | `.cbz` | Contenedor ZIP con las imagenes ordenadas. Compatible con la mayoria de lectores de comics: CDisplayEx, YACReader, Komga, Kavita, etc. |
+| CBR | `.cbr` | Igual que CBZ en contenido, con extension RAR. Algunos lectores lo prefieren sobre CBZ. |
+| Carpeta de imagenes | carpeta | Extrae cada pagina como archivo de imagen suelto dentro de una carpeta con el nombre de la galeria. Util para edicion, archivo personal o uso libre. |
+
+### Una nota sobre los GIF animados
+
+El formato HTML es el ideal cuando la galeria contiene GIF animados, porque el navegador los reproduce directamente sin ninguna conversion. Al convertir a CBZ o CBR, los GIF quedan incluidos dentro del contenedor tal como estan; los lectores que soporten GIF los reproduciran correctamente, pero los que no lo soporten mostraran solo el primer fotograma como imagen estatica.
+
+Si la galeria tiene GIF y quieres verlos animados, lo mas seguro es quedarte con el HTML. Si no hay GIF o no te importa ese detalle, cualquiera de los tres formatos del conversor funciona bien.
+
+### Como usar el conversor
+
+Ejecuta `conversor_html.exe`, selecciona uno o varios archivos `.html` o una carpeta completa, elige el formato de salida y listo. El programa procesa todos los archivos que encuentre, incluyendo subcarpetas.
+
+<img width="766" height="659" alt="image" src="https://github.com/user-attachments/assets/cdcd1218-f5e7-4c46-afb1-e936d3b21adc" />
+
+---
+
 ## Apoyo al proyecto
 
 Si el script te fue util puedes apoyar con una donacion:
