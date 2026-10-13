@@ -359,7 +359,7 @@ Puedes utilizar la herramienta de la forma que te resulte más cómoda:
 
 ### Opción A: Archivo Ejecutable (`.exe`) — *Recomendado para Windows*
 * **Sin complicaciones:** No requiere que tengas Python instalado ni dependencias previas.
-* **Uso directo:** Descarga el archivo `Conversor_HTML.exe` desde la sección de [Releases](../../releases) (junto con los archivos de soporte/iconos si aplica) y ejecútalo al instante.
+* **Uso directo:** Descarga el archivo `Conversor_HTML.exe` desde la sección de [Releases](../../releases) y ejecútalo al instante.
 
 ### Opción B: Código Fuente en Python (`.py`) — *Para desarrolladores o personalización*
 Si prefieres ejecutar, modificar o auditar el código fuente directamente, puedes utilizar el archivo `Conversor_HTML.exe`. 
