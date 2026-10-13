@@ -53,6 +53,7 @@ Cada galeria se guarda como un unico archivo `.html` con las imagenes embebidas 
 ## Panel de control
 
 El panel inicia **siempre minimizado**. Pulsa `+` en la barra de titulo (o haz doble clic sobre ella) para expandirlo. Se arrastra desde la barra de titulo y recuerda su posicion entre sesiones; si cambias de monitor o reduces la ventana, se reacomoda para que siempre quede visible.
+
 <img width="356" height="471" alt="image" src="https://github.com/user-attachments/assets/1eab015e-fe4c-48c6-8657-023771c2a7ef" />
 
 ---
